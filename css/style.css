@@ -101,10 +101,12 @@ figcaption {
     background: #ccc;
 }
 
+/* Selects all classes containing the substring "col-" and sets a margin-left of 2% */
 [class*="col-"] {
     margin-left: 2%;
 }
 
+/* Selects .first class and sets margin-left to 0 */
 .first {
     margin-left: 0;
 }
